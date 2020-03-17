@@ -13,6 +13,7 @@ const body = document.querySelector('body');
 //Initiating voices Array
 let voices = [];
 
+
 const getVoices = () => {
   voices = synth.getVoices();
   // console.log(voices)
